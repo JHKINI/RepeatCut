@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+# S3 호환 이미지 저장소(REPEATCUT_STORAGE=s3)를 쓸 때만 필요:
+# boto3

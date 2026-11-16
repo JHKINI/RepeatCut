@@ -1,0 +1,37 @@
+node_modules/
+dist/
+build/
+.vite/
+.npm/
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# 업로드된 문제 이미지 (저작권/개인정보 이유로 저장소에 올리지 않기)
+# 예전 버전은 public/problem-images 에 저장했어요. 이미 git에 올라간 파일은 `git rm --cached` 로 빼야 해요. (README 참고)
+public/problem-images/img-*
+public/problem-images/seed-*
+uploads/
+.env
+.env.local
+*.db-wal
+*.db-shm
+*.db.backup-*
+
+# 로컬 도구 폴더
+.pytest_cache/
+Claude outputs/
+.claude/
+
+# 교재 사진·시연 영상은 레포에 올리지 않음
+public/problem-images/img-*
+*.mp4
+CLAUDE.md
+적용방법.txt
+docs/RepeatCut.pptx 
