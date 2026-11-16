@@ -151,7 +151,6 @@ import './theme-hero.css'    // 그래픽 배경
 ## 발표자료
 
 - [포트폴리오용 6장 (PDF)](docs/RepeatCut_portfolio.pdf) · [PPTX](docs/RepeatCut_portfolio.pptx)
-- [상세 발표자료 19장 (PPTX)](docs/RepeatCut.pptx)
 
 ## 개선 예정
 
