@@ -16,7 +16,7 @@
 | ![통계 막대](docs/screenshots/stats-charts.png) | ![다시 풀기](docs/screenshots/stats-retry.png) |
 
 > 화면 속 데이터는 예시입니다. 업로드한 문제 이미지는 저장소에 포함하지 않았습니다.
-
+> 시연영상 다운로드: https://github.com/JHKINI/RepeatCut/releases/download/v2.0/demo.mp4
 ## v2 변경점
 
 - 이메일 로그인과 회원별 데이터 분리 (비밀번호·토큰은 해시만 저장)
