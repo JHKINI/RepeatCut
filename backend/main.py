@@ -451,7 +451,8 @@ def get_study_advice(paper_id: Optional[int] = None, user: dict = Depends(curren
         advice_cache, caller=gemini_caller,
     )
     if result.get("error_kind"):
-        log.warning("Gemini 호출 실패(%s) → 규칙 기반 추천으로 대신함", result["error_kind"])
+        # error_detail에는 Google의 에러 설명이나 연결 실패 이유가 들어 있다. (API 키는 헤더로만 보내서 여기에 없다)
+        log.warning("Gemini 호출 실패(%s): %s → 규칙 기반 추천으로 대신함", result["error_kind"], result.get("error_detail", ""))
     return result
 
 
